@@ -33,7 +33,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  final MethodChannel _channel = const MethodChannel("com.example.appleTest4"); // open channel using package name
+  final MethodChannel _channel = const MethodChannel("com.watchos.watchosDemo"); // open channel using package name
   String? _title;
 
   @override

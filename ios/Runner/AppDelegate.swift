@@ -27,7 +27,7 @@ import WatchConnectivity
         DispatchQueue.main.async {
             guard let controller = self.window?.rootViewController as? FlutterViewController else { return }
 
-            let channel = FlutterMethodChannel(name: "com.example.appleTest4", binaryMessenger: controller.binaryMessenger)
+            let channel = FlutterMethodChannel(name: "com.watchos.watchosDemo", binaryMessenger: controller.binaryMessenger)
             channel.setMethodCallHandler { [weak self] call, result in
                 let method = call.method
                 let args = call.arguments
